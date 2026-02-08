@@ -6,4 +6,20 @@
     "sha256_cert_fingerprints":
     ["B2:B6:C7:49:67:0B:09:13:E1:A3:59:55:39:C7:4F:79:12:50:A0:78:12:C9:DE:75:96:2F:EA:CB:4C:62:40:03"]
   }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://spot.christopher.com.mx"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "org.christophertwo.spot",
+    "sha256_cert_fingerprints":
+    ["B2:B6:C7:49:67:0B:09:13:E1:A3:59:55:39:C7:4F:79:12:50:A0:78:12:C9:DE:75:96:2F:EA:CB:4C:62:40:03"]
+  }
 }]
