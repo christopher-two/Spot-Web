@@ -29,14 +29,14 @@ const { id, letter, title, description, bgColor, textColor } = Astro.props;
   </div>
 
   <div
-    class="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-20 relative z-10"
+    class="w-full max-w-5xl mx-auto flex flex-col items-center justify-center gap-12 relative z-10"
   >
     {/* Big Letter and Title */}
-    <div class="flex items-center justify-center relative flex-1 w-full">
+    <div class="flex items-center justify-center relative w-full py-20">
       <div
         aria-hidden="true"
         class:list={[
-          "text-[60vw] lg:text-[60vh] font-black select-none opacity-10 leading-none",
+          "text-[60vw] md:text-[50vh] font-black select-none opacity-10 leading-none",
           textColor,
         ]}
       >
@@ -44,7 +44,7 @@ const { id, letter, title, description, bgColor, textColor } = Astro.props;
       </div>
       <h2
         class:list={[
-          "absolute text-[12vw] lg:text-[12vh] font-bold select-none opacity-80 leading-none text-center",
+          "absolute text-[15vw] md:text-[12vh] font-bold select-none opacity-90 leading-none text-center drop-shadow-sm",
           textColor,
         ]}
       >
@@ -55,12 +55,12 @@ const { id, letter, title, description, bgColor, textColor } = Astro.props;
     {/* Description Box - Organic & Soft */}
     <div
       class:list={[
-        "w-full max-w-lg p-10 md:p-12 rounded-[2.5rem] md:rounded-[3rem] backdrop-blur-xl bg-white/40 border border-white/60 shadow-xl self-center",
+        "w-full max-w-3xl p-10 md:p-14 rounded-[3rem] md:rounded-[4rem] backdrop-blur-2xl bg-white/40 border border-white/60 shadow-2xl-soft transform hover:scale-[1.02] transition-all duration-700",
         textColor,
       ]}
     >
       <p
-        class="text-xl md:text-2xl font-medium leading-relaxed opacity-90 italic text-center lg:text-left"
+        class="text-2xl md:text-3xl font-medium leading-relaxed opacity-90 italic text-center balance"
       >
         {description}
       </p>
