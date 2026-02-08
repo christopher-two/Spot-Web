@@ -46,4 +46,4 @@ Spot es una red social sentimental basada en la ubicación, diseñada para ancla
 
 ## 📜 Licencia
 
-© 2024 Spot App. Todos los derechos reservados.
+© 2026 Spot App. Todos los derechos reservados.
