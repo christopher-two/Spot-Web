@@ -1,46 +1,49 @@
-# Astro Starter Kit: Basics
+# 🌸 Spot: Momentos Reales
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+Spot es una red social sentimental basada en la ubicación, diseñada para anclar recuerdos en los lugares donde ocurrieron. Esta web es la landing page oficial del proyecto, migrada recientemente a **Astro 5** con un diseño **Orgánico y Sentimental**.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+![Hero Section Mobile](/home/christopher/.gemini/antigravity/brain/9ca2d2a3-32ea-44a6-a860-a8dc64ec4c43/hero_section_mobile_final_1770542491344.png)
 
-## 🚀 Project Structure
+## ✨ Características
 
-Inside of your Astro project, you'll see the following folders and files:
+- **Diseño Emocional**: Una estética suave basada en tonos rosas y fucsias (`Rose & Organic`).
+- **Totalmente Responsivo**: Optimizado para una experiencia perfecta tanto en escritorio como en móviles (375px+).
+- **Glassmorphism**: Uso extensivo de desenfoques de fondo y formas orgánicas para una sensación premium.
+- **Integración de App**: Secciones de características que incluyen mockups reales de la aplicación Android.
+- **Google App Links**: Soporte nativo para deep linking a través de `.well-known/assetlinks.json`.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Astro 5](https://astro.build/)
+- **Estilos**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Iconos**: [Lucide Astro](https://lucide.dev/)
+- **Tipografía**: Outfit (Headlines) & Plus Jakarta Sans (Body) via Google Fonts.
+
+## 🚀 Comandos Rápidos
+
+| Comando        | Acción                                                |
+| :------------- | :---------------------------------------------------- |
+| `pnpm install` | Instala las dependencias del proyecto.                |
+| `pnpm dev`     | Inicia el servidor de desarrollo en `localhost:4321`. |
+| `pnpm build`   | Genera la versión de producción en `./dist/`.         |
+| `pnpm preview` | Previsualiza la build de producción localmente.       |
+
+## 📁 Estructura del Proyecto
 
 ```text
 /
 ├── public/
+│   ├── .well-known/     # Configuración para Google App Links
+│   ├── screens/         # Capturas de pantalla de la app Android
 │   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
+├── src/
+│   ├── components/      # Componentes UI (Section, DownloadButton, etc.)
+│   ├── layouts/         # Layout principal con tokens de diseño
+│   ├── lib/             # Datos y utilidades
+│   └── pages/           # Rutas principales (Home, Privacidad, etc.)
 └── package.json
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 📜 Licencia
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+© 2024 Spot App. Todos los derechos reservados.
